@@ -1,7 +1,7 @@
 /**
  * 
  */
-package jsp.bt;
+package jsp.examples.obj;
 
 /**
  * @author ndloc
