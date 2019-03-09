@@ -8,5 +8,5 @@ package jsp.examples.obj.abs;
  *
  */
 public abstract class Shape {
-    abstract void draw();  
+    abstract void draw();
 }
