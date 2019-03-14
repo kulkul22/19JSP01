@@ -16,15 +16,17 @@ public class Rectangle extends Shape implements Interface1, Interface2 {
 	}
 
 	@Override
-	public void action1() {
+	public void action2() {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void action2() {
+	public void action1() {
 		// TODO Auto-generated method stub
 		
 	}
+
+	
 
 }
