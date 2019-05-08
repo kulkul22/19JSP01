@@ -81,7 +81,7 @@ public class ManageEmployee {
 		System.out.println("----------------List of employee-----------");
 		System.out.println("ID Name             Salary    Job name");
 		for (int i = 0; i < employees.length; i++) {
-			System.out.println(employees[i].id + " " + employees[i].name + "       " + employees[i].salary + " " + employees[i].job.name);
+			System.out.println(employees[i].getId() + " " + employees[i].getName() + "       " + employees[i].getSalary() + " " + employees[i].getJob().getName());
 		}
 	}
 	
