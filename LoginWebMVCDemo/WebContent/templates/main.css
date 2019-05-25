@@ -1,0 +1,27 @@
+/* 
+ * Ví dụ tạo trang đăng nhập theo mô hình MVC
+ */
+body{
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 400px;
+    border: 2px solid black;}
+h1, h2, h3, h4, h5, h6{
+    color: teal;
+    text-align: center; }
+label{
+    float: left;
+    width:10em;
+    text-align: right;
+    margin-bottom: .5em; }
+input{
+    width: 15em;
+    margin-left: .5em;
+    margin-bottom: 1em;
+    margin-bottom: 1em;}
+#id{
+    width: 10em;
+    text-align: center; }
+br{clear: both;}
