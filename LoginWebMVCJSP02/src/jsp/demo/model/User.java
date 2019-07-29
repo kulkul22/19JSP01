@@ -9,6 +9,7 @@ package jsp.demo.model;
  */
 public class User {
 	private int id;
+	private String avatar;
 	private String email;
 	private String username;
 	private String password;
@@ -30,6 +31,14 @@ public class User {
 
 	public void setId(int id) {
 		this.id = id;
+	}
+
+	public String getAvatar() {
+		return avatar;
+	}
+
+	public void setAvatar(String avatar) {
+		this.avatar = avatar;
 	}
 
 	public String getEmail() {

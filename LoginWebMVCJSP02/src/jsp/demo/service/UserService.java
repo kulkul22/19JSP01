@@ -16,4 +16,8 @@ public interface UserService {
 	public boolean checkAdmin(int role);
 	public List<User> getAll();
 	public User findUserByNameAndPass(String userName, String password);
+	public User findUserById(int id);
+	public void editUser(User user);
+	public void deleteUser(int id);
+	public void addUser(User user);
 }

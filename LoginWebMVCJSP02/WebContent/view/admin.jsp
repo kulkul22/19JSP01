@@ -10,9 +10,11 @@
 </head>
 <body>
 	<p>You are successfully logged in!</p>
+	<a href="addUser">Add User</a>
 	<table>
 		<tr>
 			<th>ID</th>
+			<th>Avatar</th>
 			<th>Email</th>
 			<th>UserName</th>
 			<th>Password</th>
@@ -23,12 +25,14 @@
 		<c:forEach items="${users}" var="user">
 		<tr>
 			<td>${user.id}</td>
+			<c:url value="/image?fname=${user.avatar}" var="imgUrl"></c:url>
+			<td><img height="70" width="90" src="${imgUrl}" /></td>
 			<td>${user.email}</td>
 			<td>${user.username}</td>
 			<td>${user.password}</td>
 			<td>${user.role}</td>
-			<td><a href="editUSer">Edit</a></td>
-			<td><a href="">Delete</a></td>
+			<td><a href="editUser?id=${user.id}">Edit</a></td>
+			<td><a href="deleteUser?id=${user.id}">Delete</a></td>
 		</tr>
 		</c:forEach>
 	</table>

@@ -47,4 +47,25 @@ public class UserServiceImpl implements UserService {
 		User userOut = userDAO.findUserByNameAndPass(userName, password);
 		return userOut;
 	}
+
+	@Override
+	public User findUserById(int id) {
+		User userOut = userDAO.findUserById(id);
+		return userOut;
+	}
+
+	@Override
+	public void editUser(User user) {
+		userDAO.editUser(user);
+	}
+
+	@Override
+	public void deleteUser(int id) {
+		userDAO.deleteUser(id);
+	}
+
+	@Override
+	public void addUser(User user) {
+		userDAO.addUser(user);
+	}
 }
