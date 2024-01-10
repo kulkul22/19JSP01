@@ -9,7 +9,7 @@
 </head>
 <body>
 	<form action="<%=request.getContextPath()%>/editUser" method="post">
-        <label> Username: </label>
+        <label> Username1: </label>
         <input type="text" name="username" value="${user.username}" disabled="disabled"><br>
         <label> Password: </label>
         <input type="text" name="password" value="${user.password}" disabled="disabled"> <br>
